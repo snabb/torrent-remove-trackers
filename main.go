@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/anacrolix/torrent/metainfo"
 	"os"
+
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 func processFile(fn string) error {
